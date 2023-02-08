@@ -30,9 +30,20 @@ header{
     margin-right: 20px;
 }
 
+nav{
+    display: flex;
+    max-width: 992px; 
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
 nav a{
+margin: 0px 10px;
 font-weight: 600;
-padding-right:10px;
+padding-left:100px;
+line-height: 80px;
+text-transform: uppercase;
+width: max-content;
 }
 
 nav a:hover{
